@@ -1,0 +1,11 @@
+#cloud-config
+runcmd:
+  - |
+    until ping -c1 archive.ubuntu.com &>/dev/null; do echo "waiting for networking to initialise" ; sleep 3 ; done 
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get -y update
+    apt-get -y install nginx
+    systemctl enable nginx
+    systemctl stop nginx
+    systemctl start nginx
+
