@@ -2,7 +2,7 @@
 
 ### using Terraform, AWS 
 
-![datacenter image](https://github.com/margiran/terraform_aws_alb_nginx/blob/master/diagram/auto_scale_and_load_balancing_in_aws_cloud.png)
+![datacenter image](https://github.com/margiran/terraform_aws_asg/blob/master/diagram/auto_scale_and_load_balancing_in_aws_cloud.png)
 
 ## Pre-requisites
 
